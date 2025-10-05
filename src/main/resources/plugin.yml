@@ -1,0 +1,14 @@
+name: MoyoTools
+main: com.moyo.moyotools.MoyoTools
+version: 1.0.0
+author:  SrMoyo
+api-version: 1.21
+commands:
+  moyo:
+    description: Comando principal de MoyoTools
+    usage: /moyo <text|ruleta|rayo|efecto|mob|random>
+    permission: moyo.use
+permissions:
+  moyo.use:
+    description: Permite usar los comandos de MoyoTools
+    default: op
